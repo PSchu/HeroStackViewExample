@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22B6E5A472FC6EC03A0CF4BB /* Pods_HeroStackViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A69A113A54ABB1E53B0F594 /* Pods_HeroStackViewExample.framework */; };
+		A306D3F21E1D639300B6C23A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306D3F11E1D639300B6C23A /* ViewController.swift */; };
 		E40ACAE11E1D4A49004D05AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40ACAE01E1D4A49004D05AE /* AppDelegate.swift */; };
 		E40ACAE81E1D4A49004D05AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40ACAE61E1D4A49004D05AE /* Main.storyboard */; };
 		E40ACAEA1E1D4A49004D05AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40ACAE91E1D4A49004D05AE /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* Begin PBXFileReference section */
 		26508964B65E4E695C072592 /* Pods-HeroStackViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroStackViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroStackViewExample/Pods-HeroStackViewExample.release.xcconfig"; sourceTree = "<group>"; };
 		8A69A113A54ABB1E53B0F594 /* Pods_HeroStackViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroStackViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A306D3F11E1D639300B6C23A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1E38E2005C9E232CA355CC7 /* Pods-HeroStackViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroStackViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroStackViewExample/Pods-HeroStackViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		E40ACADD1E1D4A49004D05AE /* HeroStackViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroStackViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40ACAE01E1D4A49004D05AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E40ACAE01E1D4A49004D05AE /* AppDelegate.swift */,
+				A306D3F11E1D639300B6C23A /* ViewController.swift */,
 				E40ACAE61E1D4A49004D05AE /* Main.storyboard */,
 				E40ACAE91E1D4A49004D05AE /* Assets.xcassets */,
 				E40ACAEB1E1D4A49004D05AE /* LaunchScreen.storyboard */,
@@ -120,6 +123,7 @@
 				TargetAttributes = {
 					E40ACADC1E1D4A49004D05AE = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4VSEW78TKT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -208,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A306D3F21E1D639300B6C23A /* ViewController.swift in Sources */,
 				E40ACAE11E1D4A49004D05AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +337,7 @@
 			baseConfigurationReference = C1E38E2005C9E232CA355CC7 /* Pods-HeroStackViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4VSEW78TKT;
 				INFOPLIST_FILE = HeroStackViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.pschu.HeroStackViewExample;
@@ -345,6 +351,7 @@
 			baseConfigurationReference = 26508964B65E4E695C072592 /* Pods-HeroStackViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4VSEW78TKT;
 				INFOPLIST_FILE = HeroStackViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.pschu.HeroStackViewExample;
