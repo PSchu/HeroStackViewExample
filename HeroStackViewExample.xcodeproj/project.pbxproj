@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B6E5A472FC6EC03A0CF4BB /* Pods_HeroStackViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A69A113A54ABB1E53B0F594 /* Pods_HeroStackViewExample.framework */; };
 		E40ACAE11E1D4A49004D05AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40ACAE01E1D4A49004D05AE /* AppDelegate.swift */; };
-		E40ACAE31E1D4A49004D05AE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40ACAE21E1D4A49004D05AE /* MasterViewController.swift */; };
-		E40ACAE51E1D4A49004D05AE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40ACAE41E1D4A49004D05AE /* DetailViewController.swift */; };
 		E40ACAE81E1D4A49004D05AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40ACAE61E1D4A49004D05AE /* Main.storyboard */; };
 		E40ACAEA1E1D4A49004D05AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40ACAE91E1D4A49004D05AE /* Assets.xcassets */; };
 		E40ACAED1E1D4A49004D05AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40ACAEB1E1D4A49004D05AE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26508964B65E4E695C072592 /* Pods-HeroStackViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroStackViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroStackViewExample/Pods-HeroStackViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		8A69A113A54ABB1E53B0F594 /* Pods_HeroStackViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroStackViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E38E2005C9E232CA355CC7 /* Pods-HeroStackViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroStackViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroStackViewExample/Pods-HeroStackViewExample.debug.xcconfig"; sourceTree = "<group>"; };
 		E40ACADD1E1D4A49004D05AE /* HeroStackViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroStackViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40ACAE01E1D4A49004D05AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E40ACAE21E1D4A49004D05AE /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		E40ACAE41E1D4A49004D05AE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E40ACAE71E1D4A49004D05AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E40ACAE91E1D4A49004D05AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E40ACAEC1E1D4A49004D05AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +31,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B6E5A472FC6EC03A0CF4BB /* Pods_HeroStackViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00DD4D3624D83D84BF9F8D80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1E38E2005C9E232CA355CC7 /* Pods-HeroStackViewExample.debug.xcconfig */,
+				26508964B65E4E695C072592 /* Pods-HeroStackViewExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46CDDBE4CAD423BF4F936E03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A69A113A54ABB1E53B0F594 /* Pods_HeroStackViewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E40ACAD41E1D4A49004D05AE = {
 			isa = PBXGroup;
 			children = (
 				E40ACADF1E1D4A49004D05AE /* HeroStackViewExample */,
 				E40ACADE1E1D4A49004D05AE /* Products */,
+				00DD4D3624D83D84BF9F8D80 /* Pods */,
+				46CDDBE4CAD423BF4F936E03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				E40ACAE01E1D4A49004D05AE /* AppDelegate.swift */,
-				E40ACAE21E1D4A49004D05AE /* MasterViewController.swift */,
-				E40ACAE41E1D4A49004D05AE /* DetailViewController.swift */,
 				E40ACAE61E1D4A49004D05AE /* Main.storyboard */,
 				E40ACAE91E1D4A49004D05AE /* Assets.xcassets */,
 				E40ACAEB1E1D4A49004D05AE /* LaunchScreen.storyboard */,
@@ -74,9 +92,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E40ACAF11E1D4A49004D05AE /* Build configuration list for PBXNativeTarget "HeroStackViewExample" */;
 			buildPhases = (
+				330808A31E1ABC0658490316 /* [CP] Check Pods Manifest.lock */,
 				E40ACAD91E1D4A49004D05AE /* Sources */,
 				E40ACADA1E1D4A49004D05AE /* Frameworks */,
 				E40ACADB1E1D4A49004D05AE /* Resources */,
+				601E8BA7DD85DC7B9C77E66F /* [CP] Embed Pods Frameworks */,
+				02905B0CAF1B086EE8E4DD54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +155,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02905B0CAF1B086EE8E4DD54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroStackViewExample/Pods-HeroStackViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		330808A31E1ABC0658490316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		601E8BA7DD85DC7B9C77E66F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeroStackViewExample/Pods-HeroStackViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E40ACAD91E1D4A49004D05AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E40ACAE51E1D4A49004D05AE /* DetailViewController.swift in Sources */,
-				E40ACAE31E1D4A49004D05AE /* MasterViewController.swift in Sources */,
 				E40ACAE11E1D4A49004D05AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -262,6 +329,7 @@
 		};
 		E40ACAF21E1D4A49004D05AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E38E2005C9E232CA355CC7 /* Pods-HeroStackViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HeroStackViewExample/Info.plist;
@@ -274,6 +342,7 @@
 		};
 		E40ACAF31E1D4A49004D05AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26508964B65E4E695C072592 /* Pods-HeroStackViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HeroStackViewExample/Info.plist;
@@ -303,6 +372,7 @@
 				E40ACAF31E1D4A49004D05AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
